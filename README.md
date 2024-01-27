@@ -1,6 +1,5 @@
 ![Presentation](https://github.com/pepperjackdev/assembly-playground/assets/98756989/f846b49f-4c83-43e0-8e9f-2346499c338d)
 
-# Assembly Playground
 Welcome to my Assembly Playground: this is a repository where you'll find a basic yet growing collection 
 of x86 Assembly programs. Authored by a beginner, this project represents a personal collection of 
 assembly snippets and straightforward scripts, created to be shared with anyone interested in exploring 
