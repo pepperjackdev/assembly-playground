@@ -3,7 +3,7 @@
 ;; useful constants
 sys_exit    equ 1
 sys_write   equ 4
-stdout      equ 1
+stdout      equ 0
 
 
 ;; text/code segment
@@ -13,9 +13,9 @@ global _start
 
 _start:
     ;; starting from here
-    mov eax, sys_exit
+    mov eax, sys_write
     mov ebx, stdout
-    mov ecx, message
+    mov ecx, msg
     mov edx, len
     int 0x80
     
@@ -28,5 +28,5 @@ exit:
 ;; data segment
 segment .data
 
-message db "Hello, World!", 0xA ;; 0xA -> Ascii Code for Line-Feed
-len equ $- message
+msg db "Hello, World!", 0xA ;; 0xA -> Ascii Code for Line-Feed
+len equ $- msg
