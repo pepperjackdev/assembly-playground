@@ -1,0 +1,6 @@
+# vs-code folder
+.vscode
+
+# compiled binaries
+bin
+
