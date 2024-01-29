@@ -1,5 +1,7 @@
 ;; @author: pepperjackdev
 
+;; @description: a simple "hello world" program.
+
 ;; useful constants
 sys_exit    equ 1
 sys_write   equ 4

@@ -1,5 +1,7 @@
 ;; @author: pepperjackdev
 
+;; @scope: asks the user for an input (as ASCII string) and then prints it out.
+
 ;; useful constants
 sys_exit    equ 1
 sys_read    equ 3
@@ -25,7 +27,7 @@ _start:
     mov edx, len_1
     int 0x80
 
-    ;; getting the imput from users
+    ;; getting the input from users
     mov eax, sys_read
     mov ebx, stdin
     mov ecx, input
