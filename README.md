@@ -5,6 +5,9 @@ of x86 Assembly programs. Authored by a beginner, this project represents a pers
 assembly snippets and straightforward scripts, created to be shared with anyone interested in exploring 
 the world of assembly language.
 
+> [!IMPORTANT]
+> All the code contained into this repository only works on x86/x86_64 GNU/Linux machines!
+
 ## Compiling sources
 To compile a source code file, you can use [NASM](https://www.nasm.us/) compiler.
 First, you have to compile your *.asm file:
